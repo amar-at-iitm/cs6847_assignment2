@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<configuration>
+    <!-- MapReduce Framework Configuration -->
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+    
+    <!-- Memory Configuration -->
+    <property>
+        <name>mapreduce.map.memory.mb</name>
+        <value>512</value>
+    </property>
+    
+    <property>
+        <name>mapreduce.reduce.memory.mb</name>
+        <value>1024</value>
+    </property>
+    
+    <property>
+        <name>mapreduce.map.java.opts</name>
+        <value>-Xmx384m</value>
+    </property>
+    
+    <property>
+        <name>mapreduce.reduce.java.opts</name>
+        <value>-Xmx768m</value>
+    </property>
+    
+    <!-- Tuning Parameters -->
+    <property>
+        <name>mapreduce.job.reduce.slowstart.completedmaps</name>
+        <value>0.8</value>
+        <description>Fraction of map tasks to complete before starting reduce tasks</description>
+    </property>
+    
+    <property>
+        <name>mapreduce.job.reduces</name>
+        <value>2</value>
+        <description>Default number of reduce tasks</description>
+    </property>
+    
+    <!-- Compression -->
+    <property>
+        <name>mapreduce.map.output.compress</name>
+        <value>true</value>
+    </property>
+    
+    <property>
+        <name>mapreduce.map.output.compress.codec</name>
+        <value>org.apache.hadoop.io.compress.SnappyCodec</value>
+    </property>
+    
+    <!-- Performance Tuning -->
+    <property>
+        <name>mapreduce.task.io.sort.mb</name>
+        <value>256</value>
+    </property>
+    
+    <property>
+        <name>mapreduce.task.io.sort.factor</name>
+        <value>32</value>
+    </property>
+    
+    <property>
+        <name>mapreduce.reduce.shuffle.parallelcopies</name>
+        <value>8</value>
+    </property>
+</configuration>
