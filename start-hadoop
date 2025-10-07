@@ -1,0 +1,5 @@
+#!/bin/bash
+echo " Starting Hadoop Cluster..."
+start-dfs.sh
+start-yarn.sh
+echo " Hadoop Cluster Started Successfully!"
