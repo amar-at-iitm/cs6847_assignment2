@@ -1,0 +1,5 @@
+#!/bin/bash
+echo " Stopping Hadoop Cluster..."
+stop-yarn.sh
+stop-dfs.sh
+echo " Hadoop Cluster Stopped Successfully!"
