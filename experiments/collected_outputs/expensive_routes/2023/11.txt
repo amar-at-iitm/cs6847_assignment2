@@ -1,0 +1,5 @@
+Randalls Island,Outside of NYC	248.095
+East Harlem North,East Flatbush/Farragut	213.5
+Randalls Island,Newark Airport	199.96
+LaGuardia Airport,Bloomfield/Emerson Hill	172.435
+Flushing Meadows-Corona Park,Outside of NYC	166.9725

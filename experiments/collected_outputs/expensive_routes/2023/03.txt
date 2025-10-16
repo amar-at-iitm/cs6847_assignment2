@@ -1,0 +1,5 @@
+Elmhurst,Outside of NYC	309.95
+Flushing Meadows-Corona Park,Newark Airport	216.83
+Randalls Island,Outside of NYC	165.9
+Corona,Outside of NYC	152.565
+Midtown East,Charleston/Tottenville	151.76999999999998

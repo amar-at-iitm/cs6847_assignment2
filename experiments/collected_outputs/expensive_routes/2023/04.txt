@@ -1,0 +1,5 @@
+South Ozone Park,South Jamaica	199.53
+Soundview/Castle Hill,Newark Airport	183.06
+Randalls Island,Outside of NYC	179.12666666666667
+Erasmus,East Flatbush/Farragut	175.5666666666667
+Bloomingdale,Outside of NYC	170.19000000000003

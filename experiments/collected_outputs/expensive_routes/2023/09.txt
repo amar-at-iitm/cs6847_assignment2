@@ -1,0 +1,5 @@
+Soundview/Castle Hill,Outside of NYC	361.65000000000003
+Roosevelt Island,Outside of NYC	260.93
+Crotona Park East,Outside of NYC	245.94
+North Corona,N/A	238.47
+Randalls Island,Outside of NYC	210.32333333333335

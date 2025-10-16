@@ -1,0 +1,5 @@
+Gramercy,South Beach/Dongan Hills	179.94
+Lower East Side,Freshkills Park	173.55
+Flushing Meadows-Corona Park,Outside of NYC	172.16967741935485
+Woodside,Outside of NYC	169.116
+Flushing Meadows-Corona Park,Newark Airport	166.66666666666666

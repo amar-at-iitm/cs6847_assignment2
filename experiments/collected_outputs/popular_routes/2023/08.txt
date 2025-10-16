@@ -1,0 +1,5 @@
+LaGuardia Airport,Times Sq/Theatre District	5721.0
+Union Sq,Murray Hill	4769.0
+Upper East Side South,Lincoln Square East	4669.0
+Yorkville West,Lenox Hill West	4638.0
+Upper East Side North,Upper West Side South	4536.0

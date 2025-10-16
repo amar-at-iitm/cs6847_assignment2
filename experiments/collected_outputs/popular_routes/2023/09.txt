@@ -1,0 +1,5 @@
+LaGuardia Airport,Times Sq/Theatre District	6246.0
+Upper East Side North,Upper West Side South	5572.0
+Lincoln Square East,Upper East Side South	5440.0
+Upper East Side South,Lincoln Square East	5229.0
+Upper West Side South,Upper East Side North	5164.0

@@ -1,0 +1,5 @@
+West Village,East Village	2251.0
+Lincoln Square East,Upper East Side South	1601.0
+West Village,East Chelsea	1461.0
+Yorkville West,Lenox Hill West	1442.0
+Union Sq,Murray Hill	1355.0

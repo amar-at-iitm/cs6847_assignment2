@@ -1,0 +1,5 @@
+West Village,East Village	1818.0
+Union Sq,Murray Hill	1251.0
+Yorkville West,Lenox Hill West	1193.0
+West Village,East Chelsea	1149.0
+Clinton East,Lincoln Square East	1121.0

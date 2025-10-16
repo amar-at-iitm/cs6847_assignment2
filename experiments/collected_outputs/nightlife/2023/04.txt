@@ -1,0 +1,5 @@
+West Village,East Village	2087.0
+Yorkville West,Lenox Hill West	1658.0
+Lincoln Square East,Upper East Side South	1632.0
+Upper West Side South,Upper East Side North	1323.0
+Lincoln Square East,Lenox Hill West	1323.0

@@ -1,0 +1,5 @@
+Corona,Outside of NYC	375.0
+Kingsbridge Heights,Outside of NYC	265.5
+Union Sq,Great Kills	228.35
+Randalls Island,Outside of NYC	179.51
+Midtown Center,Queens Village	163.73

@@ -1,0 +1,5 @@
+West Village,East Village	1947.0
+Yorkville West,Lenox Hill West	1418.0
+West Village,East Chelsea	1261.0
+Union Sq,Murray Hill	1219.0
+Lenox Hill West,Yorkville West	1128.0

@@ -1,0 +1,5 @@
+Lincoln Square West,South Beach/Dongan Hills	161.16
+Lenox Hill East,Saint George/New Brighton	157.8
+Stuy Town/Peter Cooper Village,Outside of NYC	157.2
+Garment District,Eltingville/Annadale/Prince's Bay	154.2
+Midtown East,Charleston/Tottenville	152.005

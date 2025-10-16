@@ -1,0 +1,5 @@
+Upper East Side North,Upper West Side South	7466.0
+Lincoln Square East,Upper East Side South	7458.0
+LaGuardia Airport,Times Sq/Theatre District	7202.0
+Upper West Side South,Upper East Side North	7121.0
+Upper East Side South,Lincoln Square East	7037.0

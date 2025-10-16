@@ -1,0 +1,5 @@
+Sutton Place/Turtle Bay North	142174.0
+Garment District	106126.0
+Flatiron	103890.0
+Central Park	89244.0
+Little Italy/NoLiTa	57377.0

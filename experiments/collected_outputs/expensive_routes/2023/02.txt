@@ -1,0 +1,5 @@
+New Dorp/Midland Beach,Outside of NYC	206.85
+Manhattan Beach,Outside of NYC	195.28333333333333
+Randalls Island,Outside of NYC	192.225
+Central Park,Eltingville/Annadale/Prince's Bay	191.7
+Forest Hills,Midtown South	173.5

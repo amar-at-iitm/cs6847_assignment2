@@ -1,0 +1,5 @@
+West Village,East Village	2055.0
+Upper East Side South,Yorkville West	1429.0
+Yorkville West,Lenox Hill West	1375.0
+Union Sq,Murray Hill	1374.0
+Upper West Side South,Upper East Side North	1304.0

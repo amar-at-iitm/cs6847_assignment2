@@ -1,0 +1,5 @@
+LaGuardia Airport,Times Sq/Theatre District	6994.0
+Upper East Side North,Upper West Side South	6455.0
+Upper West Side South,Upper East Side North	6203.0
+Upper East Side South,Yorkville West	6108.0
+Lincoln Square East,Upper East Side South	5966.0

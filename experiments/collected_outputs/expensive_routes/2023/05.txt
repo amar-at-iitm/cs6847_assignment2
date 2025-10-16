@@ -1,0 +1,5 @@
+Randalls Island,Outside of NYC	272.3
+Elmhurst,Outside of NYC	239.065
+Whitestone,Upper East Side South	216.6
+Manhattan Beach,Outside of NYC	201.8
+Flushing Meadows-Corona Park,Newark Airport	191.0

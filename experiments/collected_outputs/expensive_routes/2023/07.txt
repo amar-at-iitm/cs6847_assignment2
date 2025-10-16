@@ -1,0 +1,5 @@
+Elmhurst,Outside of NYC	308.3
+Manhattan Beach,Newark Airport	249.55
+Clinton West,Charleston/Tottenville	230.35
+Randalls Island,Outside of NYC	198.215
+Clinton East,Hammels/Arverne	189.95

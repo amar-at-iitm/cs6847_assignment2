@@ -1,0 +1,5 @@
+Upper East Side North,Upper West Side South	6605.0
+Lincoln Square East,Upper East Side South	6459.0
+Yorkville West,Lenox Hill West	6359.0
+Upper East Side South,Lincoln Square East	6335.0
+Upper West Side South,Upper East Side North	6215.0
