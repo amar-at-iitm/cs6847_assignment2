@@ -1,0 +1,107 @@
+amar-kumar@master:~$ ./start-hadoop 
+ Starting Hadoop Cluster...
+Starting namenodes on [master]
+Starting datanodes
+Starting secondary namenodes [master]
+Starting resourcemanager
+Starting nodemanagers
+ Hadoop Cluster Started Successfully!
+amar-kumar@master:~$ jps
+1504336 Jps
+1503322 NameNode
+1503947 ResourceManager
+1503656 SecondaryNameNode
+amar-kumar@master:~$ yarn-daemon.sh start nodemanager
+WARNING: Use of this script to start YARN daemons is deprecated.
+WARNING: Attempting to execute replacement "yarn --daemon start" instead.
+amar-kumar@master:~$ jps
+1505758 Jps
+1503322 NameNode
+1504475 NodeManager
+1503947 ResourceManager
+1503656 SecondaryNameNode
+amar-kumar@master:~$ ./stop-hadoop 
+ Stopping Hadoop Cluster...
+Stopping nodemanagers
+Stopping resourcemanager
+Stopping namenodes on [master]
+Stopping datanodes
+Stopping secondary namenodes [master]
+ Hadoop Cluster Stopped Successfully!
+amar-kumar@master:~$ jps
+1504475 NodeManager
+1506728 Jps
+amar-kumar@master:~$ yarn-daemon.sh stop nodemanager
+WARNING: Use of this script to stop YARN daemons is deprecated.
+WARNING: Attempting to execute replacement "yarn --daemon stop" instead.
+WARNING: nodemanager did not stop gracefully after 5 seconds: Trying to kill with kill -9
+amar-kumar@master:~$ jps
+1507089 Jps
+amar-kumar@master:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo nano $HADOOP_HOME/etc/hadoop/yarn-site.xml
+amar-kumar@amar-ubuntu:/usr/local/hadoop$ scp $HADOOP_HOME/etc/hadoop/yarn-site.xml amar-kumar@slave:/usr/local/hadoop/etc/hadoop/
+yarn-site.xml                                                                                               100%  407    90.0KB/s   00:00    
+amar-kumar@amar-ubuntu:/usr/local/hadoop$ cd etc/
+amar-kumar@amar-ubuntu:/usr/local/hadoop/etc$ cd hadoop/
+amar-kumar@amar-ubuntu:/usr/local/hadoop/etc/hadoop$ nano yarn-site.xml 
+amar-kumar@amar-ubuntu:/usr/local/hadoop/etc/hadoop$ nano workers 
+amar-kumar@amar-ubuntu:/usr/local/hadoop/etc/hadoop$ ls
+capacity-scheduler.xml      hadoop-policy.xml                 kms-acls.xml          mapred-queues.xml.template  user_ec_policies.xml.template
+configuration.xsl           hadoop-user-functions.sh.example  kms-env.sh            mapred-site.xml             workers
+container-executor.cfg      hdfs-rbf-site.xml                 kms-log4j.properties  master_rsa_key              yarn-env.cmd
+core-site.xml               hdfs-site.xml                     kms-site.xml          master_rsa_key.pub          yarn-env.sh
+hadoop-env.cmd              httpfs-env.sh                     log4j.properties      shellprofile.d              yarnservice-log4j.properties
+hadoop-env.sh               httpfs-log4j.properties           mapred-env.cmd        ssl-client.xml.example      yarn-site.xml
+hadoop-metrics2.properties  httpfs-site.xml                   mapred-env.sh         ssl-server.xml.example
+amar-kumar@amar-ubuntu:/usr/local/hadoop/etc/hadoop$ yarn-daemon.sh start nodemanager
+WARNING: Use of this script to start YARN daemons is deprecated.
+WARNING: Attempting to execute replacement "yarn --daemon start" instead.
+amar-kumar@amar-ubuntu:/usr/local/hadoop/etc/hadoop$ cd ..
+amar-kumar@amar-ubuntu:/usr/local/hadoop/etc$ ls
+hadoop
+amar-kumar@amar-ubuntu:/usr/local/hadoop/etc$ cd ..
+amar-kumar@amar-ubuntu:/usr/local/hadoop$ ls
+bin  hadoop_data  lib      LICENSE-binary   LICENSE.txt  NOTICE-binary  README.txt  share
+etc  include      libexec  licenses-binary  logs         NOTICE.txt     sbin
+amar-kumar@amar-ubuntu:/usr/local/hadoop$ yarn-daemon.sh start nodemanager
+WARNING: Use of this script to start YARN daemons is deprecated.
+WARNING: Attempting to execute replacement "yarn --daemon start" instead.
+nodemanager is running as process 205790.  Stop it first and ensure /tmp/hadoop-amar-kumar-nodemanager.pid file is empty before retry.
+amar-kumar@amar-ubuntu:/usr/local/hadoop$ jps
+200658 SecondaryNameNode
+200965 ResourceManager
+206649 Jps
+200351 NameNode
+205790 NodeManager
+amar-kumar@amar-ubuntu:/usr/local/hadoop$ yarn-daemon.sh stop nodemanager
+WARNING: Use of this script to stop YARN daemons is deprecated.
+WARNING: Attempting to execute replacement "yarn --daemon stop" instead.
+WARNING: nodemanager did not stop gracefully after 5 seconds: Trying to kill with kill -9
+amar-kumar@amar-ubuntu:/usr/local/hadoop$ jps
+1503042 Jps
+amar-kumar@amar-ubuntu:/usr/local/hadoop$ 
+
+
+
+
+
+
+
+
+
+
